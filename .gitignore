@@ -1,0 +1,15 @@
+# D build artifacts
+.dub/
+dub.selections.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+rootcheck
+*.di
+
+# IDE
+.vscode/
+*.sublime-*

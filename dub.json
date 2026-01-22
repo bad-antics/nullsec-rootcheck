@@ -1,0 +1,26 @@
+{
+    "name": "nullsec-rootcheck",
+    "description": "Hardened Rootkit Detection System",
+    "authors": ["bad-antics"],
+    "license": "proprietary",
+    "targetType": "executable",
+    "targetName": "rootcheck",
+    "sourcePaths": ["."],
+    "mainSourceFile": "rootcheck.d",
+    "buildOptions": [
+        "betterC",
+        "releaseMode"
+    ],
+    "dflags": [
+        "-O",
+        "-boundscheck=on",
+        "-checkaction=context",
+        "-preview=dip1000",
+        "-preview=dip1008"
+    ],
+    "lflags": [
+        "-z", "now",
+        "-z", "relro",
+        "-pie"
+    ]
+}
