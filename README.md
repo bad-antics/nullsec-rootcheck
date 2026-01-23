@@ -11,7 +11,7 @@
 ╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝
 ```
 
-**Hardened Rootkit Detection System in D**
+**Secure Rootkit Detection System in D**
 
 [![D Language](https://img.shields.io/badge/D-B03931?style=for-the-badge&logo=d&logoColor=white)](https://dlang.org/)
 [![Security](https://img.shields.io/badge/Security-Maximum-red?style=for-the-badge)](https://github.com/bad-antics)
@@ -19,7 +19,7 @@
 
 </div>
 
-## Security Hardening Features
+## Security Security Features
 
 ### Memory Safety (@safe by default)
 - `@safe` annotations throughout the codebase
