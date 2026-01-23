@@ -19,7 +19,7 @@
 
 </div>
 
-## Security Security Features
+## Security Features Features
 
 ### Memory Safety (@safe by default)
 - `@safe` annotations throughout the codebase
